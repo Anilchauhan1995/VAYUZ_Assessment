@@ -11,6 +11,15 @@
   border-color: var(--theme-bg-clr);
 }
 
+.banner_section .col_wrapper_left .banner_heading h1 {
+  font-size: 3rem;
+}
+.banner_section .banner_button .btn-link {
+  border: 1px solid var(--black-clr);
+  color: var(--black-clr);
+  padding: 0.7rem 2rem;
+}
+
 .about_section .about_wrapper {
   background-color: var(--theme-bg-clr);
   padding: 1rem;

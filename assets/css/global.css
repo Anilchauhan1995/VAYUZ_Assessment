@@ -74,11 +74,16 @@ ul {
 }
 ul li a {
   text-decoration: none;
+  font-family: "Arial", sans-serif;
 }
 
 i::before {
   font-family: "FontAwesome";
   font-style: initial;
+}
+
+button {
+  font-family: "Arial", sans-serif;
 }
 
 /*# sourceMappingURL=global.css.map *//*# sourceMappingURL=global.css.map */

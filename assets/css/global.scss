@@ -74,6 +74,7 @@ button.btn.btn-link{
     li{
       a{
         text-decoration: none;
+        font-family: "Arial", sans-serif;
       }
     }
 }
@@ -83,6 +84,9 @@ i{
     font-family: "FontAwesome";
     font-style: initial;
   }
+}
+button{
+  font-family: "Arial", sans-serif;
 }
 // slick css end
 

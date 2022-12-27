@@ -23,7 +23,22 @@
 // /header css end
 
 // banner section css start
-
+.banner_section{
+    .col_wrapper_left{
+        .banner_heading{
+            h1{
+                font-size: 3rem;
+            }
+        }
+    }
+    .banner_button{
+        .btn-link{
+            border: 1px solid var(--black-clr);
+            color: var(--black-clr);
+            padding: .7rem 2rem;
+        }
+    }
+}
 // banner section css end
 
 // about section css start
