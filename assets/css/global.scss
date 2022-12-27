@@ -12,6 +12,9 @@
 .btn.btn-primary:focus{
 box-shadow: unset;
 }
+button.btn.btn-link{
+  text-decoration: none;
+}
 .theme_btn{
   box-shadow: 0px 8px 15px var(--theme-button-shadow-clr);
   border-radius: 8px;
@@ -20,7 +23,9 @@ box-shadow: unset;
   padding: 13px 23px 13px 23px;
 }
 
-
+.active-clr{
+  background-color: var(--theme-bg-clr);
+}
   img{
     // width: 100%;
     image-rendering:-webkit-optimize-contrast;
@@ -73,6 +78,12 @@ box-shadow: unset;
     }
 }
 
+i{
+  &::before{
+    font-family: "FontAwesome";
+    font-style: initial;
+  }
+}
 // slick css end
 
 

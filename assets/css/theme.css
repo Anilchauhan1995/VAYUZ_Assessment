@@ -7,6 +7,7 @@
 
 .about_section .about_wrapper {
   background-color: var(--theme-bg-clr);
+  padding: 1rem;
 }
 .about_section .about_wrapper .about_search_btn .btn-light {
   background-color: var(--white-clr);
@@ -21,6 +22,21 @@
   border: 1px solid var(--theme-bg-clr);
   padding: 3rem;
 }
+.choose_us_section .hosting_wrapper.most_popular_card {
+  padding: 2.4rem 3rem;
+  background-color: var(--white-clr);
+  border-color: transparent;
+}
+.choose_us_section .hosting_wrapper.most_popular_card .btn-light.active-clr {
+  border-color: var(--theme-bg-clr) !important;
+  color: var(--white-clr) !important;
+}
+.choose_us_section .hosting_wrapper .hosting_card .most_popular .btn.btn-link.popular {
+  background-color: var(--theme-bg--button-clr);
+  color: var(--white-clr);
+  width: 100%;
+  padding: 0.8rem 0.4rem;
+}
 .choose_us_section .hosting_wrapper .hosting_card .card_select_button .btn-light {
   padding: 0.8rem 0.4rem;
   border: 1px solid var(--black-clr);
@@ -33,10 +49,27 @@
   border-color: var(--theme-bg-clr);
   color: var(--white-clr);
 }
+.choose_us_section .hosting_wrapper .hosting_card .card_list ul {
+  text-align: left;
+  padding-left: 2rem;
+}
 .choose_us_section .hosting_wrapper .hosting_card .card_list ul li a {
   color: var(--theme-text-clr);
+  display: flex;
+  -moz-column-gap: 0.5rem;
+       column-gap: 0.5rem;
+  color: var(--black-clr);
+}
+.choose_us_section .hosting_wrapper .hosting_card .card_list ul li a span {
+  display: inline-block;
+  aspect-ratio: 1/1;
+  width: 16px;
+  text-align: center;
+}
+.choose_us_section .hosting_wrapper .hosting_card .card_list ul li a span i {
+  font-size: 1rem;
 }
 
 footer.footer .footer_wrapper .footer_social_icon ul li a img {
-  width: 40px;
+  width: 35px;
 }/*# sourceMappingURL=theme.css.map */
