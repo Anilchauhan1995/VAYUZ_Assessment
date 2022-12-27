@@ -4,6 +4,12 @@
 // header css Start
 .header{
     nav.navbar{
+        .navbar-toggler{
+            border: 0;
+            &:focus{
+                box-shadow: unset;
+            }
+        }
         .search_btn{
             button{
                 &.btn-primary{
@@ -85,7 +91,7 @@
                             color: var(--theme-text-clr);
                             display: flex;
                             column-gap: .5rem;
-                            color: var(--black-clr);
+                            
                             span{
                                 display: inline-block;
                                 aspect-ratio: 1/1;
@@ -93,6 +99,7 @@
                                 text-align: center;
                                 i{
                                     font-size: 1rem;
+                                    color: var(--black-clr);
                                 }
                             }
                             

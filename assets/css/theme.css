@@ -1,5 +1,11 @@
 @import url(global.css);
 @import url(responsive.css);
+.header nav.navbar .navbar-toggler {
+  border: 0;
+}
+.header nav.navbar .navbar-toggler:focus {
+  box-shadow: unset;
+}
 .header nav.navbar .search_btn button.btn-primary {
   background-color: var(--theme-bg-clr);
   border-color: var(--theme-bg-clr);
@@ -58,7 +64,6 @@
   display: flex;
   -moz-column-gap: 0.5rem;
        column-gap: 0.5rem;
-  color: var(--black-clr);
 }
 .choose_us_section .hosting_wrapper .hosting_card .card_list ul li a span {
   display: inline-block;
@@ -68,6 +73,7 @@
 }
 .choose_us_section .hosting_wrapper .hosting_card .card_list ul li a span i {
   font-size: 1rem;
+  color: var(--black-clr);
 }
 
 footer.footer .footer_wrapper .footer_social_icon ul li a img {
