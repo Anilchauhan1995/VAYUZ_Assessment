@@ -1,0 +1,88 @@
+:root {
+     --theme-bg-clr:#E9EDF2;
+     --theme_font: 'Open Sans', sans-serif;
+    }
+
+
+.btn.btn-primary:focus{
+box-shadow: unset;
+}
+.theme_btn{
+  box-shadow: 0px 8px 15px var(--theme-button-shadow-clr);
+  border-radius: 8px;
+  border: 1px solid var(--theme-border-clr);
+  border-radius: 5px;
+  font-family: var(--theme_font);
+  padding: 13px 23px 13px 23px;
+}
+
+.bg-dash_color{
+  background-color: var(--dashboard-clr);
+}
+.light_gray_clr{
+  background-color: var(--theme-light-gry-clr);
+}
+  
+  .theme_text-color{
+    color: var(--theme-text-color);
+  }
+  .icon_bg_primary_clr{
+   background-color: var(--theme-icon-primary-clr);
+  }
+  img{
+    // width: 100%;
+    image-rendering:-webkit-optimize-contrast;
+  }
+  
+  
+  body,
+  a {
+    font: 16px var(--theme_font) !important;
+    color: var(--theme-text-color);
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: var(--theme_font) !important;
+    font-weight: normal;
+    margin-bottom: 0 !important;
+  }
+  
+
+  
+  h3.h3 {
+    font-size: 18px;
+  }
+  
+  p {
+    font: 16px var(--theme_font);
+    color: var(--theme-text-color);
+    /* font-weight:500; */
+  }
+  
+  .fa-light,
+  .fa-regular {
+    font-family: "fontAwesome";
+  }
+
+  ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    li{
+      a{
+        text-decoration: none;
+      }
+    }
+}
+
+// slick css end
+
+
+  /*# sourceMappingURL=global.css.map */
+  
