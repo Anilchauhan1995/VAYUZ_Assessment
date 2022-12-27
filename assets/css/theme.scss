@@ -2,5 +2,92 @@
 @import url(responsive.css);
 
 // header css Start
+.header{
+    nav.navbar{
+        .search_btn{
+            button{
+                &.btn-primary{
+                    background-color: var(--theme-bg-clr);
+                    border-color: var(--theme-bg-clr);
+                }
+            }
+        }
+    }
+}
+// /header css end
 
-// enhance card css End
+// banner section css start
+
+// banner section css end
+
+// about section css start
+
+.about_section{
+    .about_wrapper{
+    background-color: var(--theme-bg-clr);
+    .about_search_btn{
+        .btn-light{
+            background-color: var(--white-clr);
+            text-decoration: none;
+            color: var(--theme-bg-clr);
+        }
+    }
+    }
+}
+// about section css end
+
+// choose-us section css start
+.choose_us_section{
+    background-color: var(--theme-bg-alt-clr);
+
+    .hosting_wrapper{
+        border: 1px solid var(--theme-bg-clr);
+        padding: 3rem;
+        
+        .hosting_card{
+
+            .card_select_button{
+                .btn-light{
+                    padding: .8rem .4rem;
+                    border: 1px solid var(--black-clr);
+                    width: 80%;
+                    text-decoration: none;
+                    color: var(--black-clr);
+                    &:hover{
+                        background-color: var(--theme-bg-clr);
+                        border-color: var(--theme-bg-clr);
+                        color: var(--white-clr);
+                    }
+                }
+            }
+            .card_list{
+                ul{
+                    li{
+                        a{
+                            color: var(--theme-text-clr);
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+// choose-us section css end
+
+// footer css start
+footer.footer{
+    .footer_wrapper{
+        .footer_social_icon{
+            ul{
+                li{
+                    a{
+                        img{
+                            width: 40px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+// footer css end
